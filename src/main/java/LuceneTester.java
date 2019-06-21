@@ -75,8 +75,7 @@ public class LuceneTester {
                  + (endTime - startTime));
         for(ScoreDoc scoreDoc : hits.scoreDocs) {
             Document doc = searcher.getDocument(scoreDoc);
-            System.out.println("Fisier: "
-                    + doc.get("filepath"));
+            System.out.println("Fisier: " + doc.get("filepath"));
         }
     }
 }

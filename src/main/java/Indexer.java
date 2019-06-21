@@ -61,7 +61,7 @@ public class Indexer {
     }
 
     private void indexFile(File file) throws IOException {
-        System.out.println("Indexing "+file.getCanonicalPath());
+        System.out.println("Se indexeaza "+file.getCanonicalPath());
         Document document = getDocument(file);
         writer.addDocument(document);
     }
