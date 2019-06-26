@@ -8,7 +8,7 @@ Apache Tika was used in order to parse the content of multiple file types, inclu
 The app works by using the Lucene Analyzers and Indexer classes. 
 Files are parsed using Tika and then indexed. The indexes are stored in a separate folder, then queries are built and then execute.
 
-Lucene uses tranliteration and stemming. 
+Lucene uses transliteration and stemming. 
 
 <img src="https://www.knstek.com/wp-content/uploads/2015/01/lucence-flow-1.png">
 
